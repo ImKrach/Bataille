@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bataille.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+  </head>
+
+
+  <body>
+      <div class="container-fluid">
+        <h3>Bienvenue</h3>
+        <p>Cliquez sur le bouton démarrer pour commencer..</p>
+        <button class="btn btn-primary btn-lg btn-block" id="start">Démarrer</button>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="thumbnail">
+              <div class="caption">
+                <div class="contenuCaption">
+                    <div class="affiche">
+                      <table class="plateau" id="joueurAInit"></table>
+                      <table class="plateau" id="joueurBInit"></table>
+                      <table class="plateau" id="joueurBCache"></table>
+                      <table class="plateau" id="joueurACache"></table>
+                      <p id="boutonValidation">
+                        <a id="reset" class="btn btn-default" role="button">Reset</a>
+                        <a id="confirm" class="btn btn-primary" role="button">OK</a> 
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bataille.js"></script>
+  </body>
+</html>
+
+
+  

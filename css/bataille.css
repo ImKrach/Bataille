@@ -1,0 +1,88 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-sizing	:border-box;
+    -moz-box-sizing	    :border-box;
+	box-sizing          :border-box;
+}
+
+body{
+	background-color: #E4F1FE;
+}
+
+.menu{
+	width: 80%;
+	height:35em;
+	margin: 2em auto 2em auto;
+}
+
+.container-fluid{
+	text-align:center;
+}
+
+.affiche{
+	display: block;
+	margin: 0 auto;
+	width: 30em;
+}
+
+table {
+	float: left;
+}
+
+tbody {
+	width: 100%;
+	height: 100%;
+}
+
+.caption{
+	margin: auto;
+	width: 50%;
+}
+.contenuCaption{
+	margin: 0 auto;
+}
+.plateau{
+	background-color: #F0F0F0;
+	border-style: solid;
+	border-width:1px;
+	width: 30em;
+	height: 30em;
+	border-style: solid;
+	border-width:1px;
+	margin: 0 auto;
+	clear:left;
+}
+
+.plateauCache{
+	background-color: #F0F0F0;
+	border-style: solid;
+	border-width:1px;
+	width: 30em;
+	height: 30em;
+	margin:9em auto;
+	border-style: solid;
+	border-width:1px;
+	position:absolute; top:-999px; left:-9999px;
+}
+
+td { 
+ border-width:1px;
+ border-style:solid; 
+ width:10%;
+ }
+
+ tr { 
+ border-width:1px;
+ border-style:solid;
+ height:10%;
+ }
+
+
+ #boutonValidation{
+ 	display:block; 
+ 	clear:left; 
+ 	width:50%; 
+ 	padding:2em 0 2em 0; 
+ 	margin:auto;
+ }
